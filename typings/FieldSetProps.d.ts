@@ -14,8 +14,11 @@ interface CommonProps {
     tabIndex: number;
 }
 
+export type RenderModeEnum = "span" | "p" | "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+
 export interface FieldSetContainerProps extends CommonProps {
     caption?: DynamicValue<string>;
+    renderMode: RenderModeEnum;
     content: ReactNode;
 }
 
@@ -24,10 +27,12 @@ export interface FieldSetPreviewProps {
     style: string;
     styleObject: CSSProperties;
     caption?: string;
+    renderMode: RenderModeEnum;
     content: ReactNode;
 }
 
 export interface VisibilityMap {
     caption: boolean;
+    renderMode: boolean;
     content: boolean;
 }

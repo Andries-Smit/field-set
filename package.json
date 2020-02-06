@@ -1,7 +1,7 @@
 {
   "name": "field-set",
   "widgetName": "FieldSet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My widget description",
   "copyright": "Mendix 2019",
   "author": "Widget Team",

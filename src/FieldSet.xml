@@ -12,6 +12,20 @@
                 <caption>Caption</caption>
                 <description/>
             </property>
+            <property key="renderMode" type="enumeration" defaultValue="span">
+                <caption>Render mode</caption>
+                <description/>
+                <enumerationValues>
+                    <enumerationValue key="span">Text</enumerationValue>
+                    <enumerationValue key="p">Paragraph</enumerationValue>
+                    <enumerationValue key="h1">Heading 1</enumerationValue>
+                    <enumerationValue key="h2">Heading 2</enumerationValue>
+                    <enumerationValue key="h3">Heading 3</enumerationValue>
+                    <enumerationValue key="h4">Heading 4</enumerationValue>
+                    <enumerationValue key="h5">Heading 5</enumerationValue>
+                    <enumerationValue key="h6">Heading 6</enumerationValue>
+                </enumerationValues>
+            </property>
             <systemProperty key="Visibility"/>
             <property key="content" type="widgets">
                 <caption>Content</caption>
